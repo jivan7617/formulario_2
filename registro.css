@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+body form div li  {
+    background-color:rgba(128, 128, 128, 0.596);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+main div a #gourmet{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+body {
+    background-color:#AED6F1 ;
+    height: 100vh;
+
+}
+button{
+    background-color:burlywood;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin:40px 0;
+}
+button:hover{
+    background-color: cyan;
+}
+#main-container header main .image{
+    text-align: right;
+    width: 700px;
+}

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color:#AED6F1 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+#main-container header #menu{
+    padding: 50px, 0;
+}
+header #menu ul {
+margin: 0;
+padding: 0;
+}
+header #menu ul li {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+}
+header #menu ul li form a{
+    background-color: burlywood;
+    text-decoration: none;
+    
+}
+header #menu ul li form a:hover{
+    text-decoration: underline;
+    background-color: blue;
+    color:chocolate;
+}
+header #menu ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
+}
+#main-container header main {
+    margin: 0 auto;
+    width: 1400px;
+    
+}
+#main-container header div {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#main-container header main .text h1 {
+font-size: 80px;
+margin:40 auto;
+text-align: center;
+
+color:#000; 
+}
+#main-container header .text h2{
+    font-size: 24px;
+    padding: 20px 0;
+    color:darkgreen;
+}
+button{
+    background-color:burlywood;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin:40px 0;
+}
+button:hover{
+    background-color: cyan;
+}
+#main-container header main .image{
+    text-align: right;
+    width: 700px;
+}
+
